@@ -34,7 +34,7 @@ public final class Factorial {
     public static int recFactorialCalc(final int num) {
         // Checks if num is less than 1 if so it returns the value
         if (num <= 1) {
-            return num;
+            return 1;
         }
         return recFactorialCalc(num - 1) * num;
     }
